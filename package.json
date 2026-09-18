@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch src/index.ts",
-    "start": "tsx src/index.ts"
+    "start": "tsx src/index.ts",
+    "dev:cloud": "./scripts/dev-cloud.sh",
+    "dev:cloud:stop": "./scripts/stop-cloud.sh"
   },
   "keywords": [],
   "author": "",
